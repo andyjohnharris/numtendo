@@ -8,6 +8,10 @@ export const CalcWrap = styled.div`
   border-radius: 30px 30px 100px 30px;
   padding: 60px 40px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 
   &::before {
     content: ' ';

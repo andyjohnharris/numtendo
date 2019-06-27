@@ -7,7 +7,6 @@ import { CalcWrap } from '../styled/calculator.css.js'
 const Calculator = (props) => {
   return (
     <CalcWrap>
-      NUMTENDO
       <Screen />
       <Numpad />
     </CalcWrap>
